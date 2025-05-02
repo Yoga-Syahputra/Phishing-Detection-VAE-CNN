@@ -3,6 +3,7 @@ import torch
 import json
 import numpy as np
 import pandas as pd
+import re
 import time
 
 from utils.preprocessing import preprocess_url
