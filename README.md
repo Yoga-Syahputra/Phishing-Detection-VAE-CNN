@@ -110,7 +110,7 @@ This is the main directory for the detection app built using Streamlit.
 
 This directory contains the dataset, organized into two different subdirectories:
 1. /data/dev - Contains the primary dataset used for the model development, including legitimate and phishing URLs
-2. /data/tes - Contains various samples used for simulation in the app via the CSV file upload
+2. /data/test - Contains various samples used for simulation in the app via the CSV file upload
 
 ### /models
 
