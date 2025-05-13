@@ -11,9 +11,9 @@
   - [Layer Details](#layer-details)
   - [Model Summary](#model-summary)
   - [Memory Estimate](#memory-estimate)
-- [Folder Details](#folder-details
+- [Folder Details](#folder-details)
 - [How to Run the App](#how-to-run-the-app)
-- [Evaluation Metrics](#evaluation-metrics
+- [Evaluation Metrics](#evaluation-metrics)
 - [Authors](#authors)
 - [Publication](#publication)
 - [Contact](#contact)
