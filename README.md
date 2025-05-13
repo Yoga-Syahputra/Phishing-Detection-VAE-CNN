@@ -47,7 +47,7 @@ In addition, users can manually configure the detection **threshold** via the si
 
 ---
 
-# Dataset Details 
+## Dataset Details 
 
 - Total URLs: **10,000**
   - **7,000 legitimate** (used for training)
