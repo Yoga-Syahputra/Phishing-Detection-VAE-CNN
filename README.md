@@ -2,20 +2,20 @@
 
 ## Table of Contents 📃
 
-- [Abstract](#abstract)
-- [About This Project](#about-this-project)
-  - [Theoretically](#theoretically)
-  - [Practically](#practically)
-- [Dataset Details](#dataset-details)
-- [VAE-CNN Model Architecture](#vae-cnn-model-architecture)
-  - [Layer Details](#layer-details)
-  - [Model Summary](#model-summary)
-  - [Memory Estimate](#memory-estimate)
-- [How to Run](#how-to-run)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Authors](#authors)
-- [Citation](#citation)
-- [Contact](#contact)
+- [Abstract](#abstract-)
+- [About This Project](#about-this-project-)
+  - [Theoretically](#theoretically-)
+  - [Practically](#practically-)
+- [Dataset Details](#dataset-details-)
+- [VAE-CNN Model Architecture](#vae-cnn-model-architecture-)
+  - [Layer Details](#layer-details-)
+  - [Model Summary](#model-summary-)
+  - [Memory Estimate](#memory-estimate-)
+- [How to Run](#how-to-run-)
+- [Evaluation Metrics](#evaluation-metrics-)
+- [Authors](#authors-)
+- [Citation](#citation-)
+- [Contact](#contact-)
 
 ## Abstract 📝
 
