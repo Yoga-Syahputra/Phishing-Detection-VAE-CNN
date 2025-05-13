@@ -34,7 +34,7 @@ Phishing merupakan ancaman berbahaya dalam keamanan siber yang mengelabui penggu
 
 ### Theoretically 👨🏻‍🏫
 
-This project was submitted as part of the undergraduate thesis in Informatics Engineering at Universitas Maritim Raja Ali Haji (UMRAH). The primary goal in this project is to develop a hybrid deep learning model for URL-based phishing detection by comvbining Variational Autoencoder (VAE), which is effectove in capturing latent representations, with Convolutional Neyral Network (CNN), known for the ability in extracting local patterns in data. The model applies an unsupervised anomaly detection approach, where it is trained solely on legitimate URLs to calculate reconstruction loss and then tested using both legitimate and phishing URLs to evaluate the detection performance. The testing process includes comparing the model's predictions against ground truth labels to evaluate its realibility. 
+This project was submitted as part of the undergraduate thesis in Informatics Engineering at Universitas Maritim Raja Ali Haji (UMRAH). The primary goal in this project is to develop a hybrid deep learning model for URL-based phishing detection by comvbining Variational Autoencoder (VAE), which is effectove in capturing latent representations, with Convolutional Neural Network (CNN), known for the ability in extracting local patterns in data. The model applies an unsupervised anomaly detection approach, where it is trained solely on legitimate URLs to calculate reconstruction loss and then tested using both legitimate and phishing URLs to evaluate the detection performance. The testing process includes comparing the model's predictions against ground truth labels to evaluate its realibility. 
 
 ### Practically 👨🏻‍💻
 
