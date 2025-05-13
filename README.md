@@ -38,7 +38,7 @@ This project was submitted as part of the undergraduate thesis in Informatics En
 
 ### Practically 👨🏻‍💻
 
-To simulate the practical application of the model, a user-friendly interface named **PHISHABILITY** was built using the Streamlit framework in Python. The app allows real-time phishing detection and provided two modes of input for flexibilty and usability:
+To simulate the practical application of the model, a user-friendly interface named **PHISHABILITY** was built using the Streamlit framework in Python. The app allows real-time phishing detection and provides two modes of input for flexibilty and usability:
 1. Manual URL Entry - Users can input a single URL for immediate detection (non-URL inputs will be rejected with a warning)
 2. CSV File Upload - Users can upload a CSV file containing multiple URLs, allowing for efficient batch processing and detection.
 
