@@ -81,12 +81,12 @@ The model was developed using the PyTorch library in Python. Below is a detailed
 | ConvTranspose2d-16     | `[1, 32, 48, 40]`       | 32,800        |
 | BatchNorm2d-17         | `[1, 32, 48, 40]`       | 64            |
 | ReLU-18                | `[1, 32, 48, 40]`       | 0             |
-| ConvTranspose2d-19     | `[1, 1, 96, 81]`        | 513           |
+| ConvTranspose2d-19     | `[1, 1, 100, 87]`        | 513           |
 
 ### Model Summary 
 
-- **Total Parameters**: `529,353`
-- **Trainable Parameters**: `529,353`
+- **Total Parameters**: `530,121`
+- **Trainable Parameters**: `530,121`
 - **Non-trainable Parameters**: `0`
 
 ### Memory Estimate 
@@ -94,9 +94,9 @@ The model was developed using the PyTorch library in Python. Below is a detailed
 | Description              | Size      |
 |--------------------------|-----------|
 | Input size               | `0.03 MB` |
-| Forward/Backward pass    | `4.98 MB` |
+| Forward/Backward pass    | `4.99 MB` |
 | Params size              | `2.02 MB` |
-| Estimated Total Size     | `7.03 MB` |
+| Estimated Total Size     | `7.04 MB` |
 
 ---
 
