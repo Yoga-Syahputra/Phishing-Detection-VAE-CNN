@@ -119,7 +119,7 @@ This directory contains the best VAE-CNN model, along with the vocabulary file g
 ### /notebook
 
 This directory includes two subdirectories:
-1. /notebook/model - Contains the **Jupyter Notebook** used for developing the VAE-CNN model, with multiple experiment setups
+1. /notebook/models - Contains the **Jupyter Notebook** used for developing the VAE-CNN model, with multiple experiment setups
 2. /notebook/utils - Contains the **Jupyter Notebook** files for data preparation and preprocessing
 
 ### /utils
