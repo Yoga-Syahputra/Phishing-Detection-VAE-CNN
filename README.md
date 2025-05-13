@@ -62,7 +62,7 @@ In addition, users can manually configure the detection **threshold** via the si
 The model was developed using the PyTorch library in Python. Below is a detailed summary of the encoder and decoder layers used in the VAE-CNN architecture:
 
 | Layer (Type)           | Output Shape            |  Parameters   |
-_|------------------------|------------------------|---------------|
+|------------------------|-------------------------|---------------|
 | Conv2d-1               | `[1, 32, 50, 43]`       | 544           |
 | BatchNorm2d-2          | `[1, 32, 50, 43]`       | 64            |
 | ReLU-3                 | `[1, 32, 50, 43]`       | 0             |
