@@ -124,7 +124,7 @@ This directory includes two subdirectories:
 
 ### /utils
 
-This directory consists of VAE-CNN model architecture and helper scripts used in the app preprocessing.
+This directory consists of VAE-CNN model architecture and helper scripts used in the app preprocessing
 
 ---
 
