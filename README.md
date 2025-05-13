@@ -14,7 +14,7 @@
 - [How to Run](#how-to-run-)
 - [Evaluation Metrics](#evaluation-metrics-)
 - [Authors](#authors-)
-- [Citation](#citation-)
+- [Publication](#publication-)
 - [Contact](#contact-)
 
 ## Abstract 📝
