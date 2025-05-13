@@ -114,7 +114,7 @@ This directory contains the dataset, organized into two different subdirectories
 
 ### /models
 
-This directory contains the best VAE-CNN model, along with the vocabulary file generated during the preprocessing.
+This directory contains the best VAE-CNN model, along with the vocabulary file generated during the preprocessing
 
 ### /notebook
 
