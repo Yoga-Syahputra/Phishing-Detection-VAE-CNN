@@ -1,27 +1,28 @@
-# URL-based Phishing Detection Using Variational Autoencoder and Convolutional Neural Network (VAE-CNN) 🕵🏻
+# URL-based Phishing Detection Using Variational Autoencoder and Convolutional Neural Network (VAE-CNN) 
 
-## Table of Contents 📃
+## Table of Contents 
 
-- [Abstract](#abstract-)
-- [About This Project](#about-this-project-)
+- [Abstract](#abstract)
+- [About This Project](#about-this-project)
   - [Theoretically](#theoretically-)
   - [Practically](#practically-)
 - [Dataset Details](#dataset-details-)
-- [VAE-CNN Model Architecture](#vae-cnn-model-architecture-)
-  - [Layer Details](#layer-details-)
-  - [Model Summary](#model-summary-)
-  - [Memory Estimate](#memory-estimate-)
-- [How to Run](#how-to-run-)
-- [Evaluation Metrics](#evaluation-metrics-)
-- [Authors](#authors-)
-- [Publication](#publication-)
-- [Contact](#contact-)
+- [VAE-CNN Model Architecture](#vae-cnn-model-architecture)
+  - [Layer Details](#layer-details)
+  - [Model Summary](#model-summary)
+  - [Memory Estimate](#memory-estimate)
+- [Folder Details](#folder-details
+- [How to Run the App](#how-to-run-the-app)
+- [Evaluation Metrics](#evaluation-metrics
+- [Authors](#authors)
+- [Publication](#publication)
+- [Contact](#contact)
 
-## Abstract 📝
+## Abstract 
 
 ### English 
 
-Phishing is a dangerous cybersecurity threat that deceives users by disguising malicious content as legitimate. This study suggests an unsupervised anomaly detection using Variational Autoencoder (VAE) and Convolutional Neural Network (CNN) to identify phishing URLs. The model utilizes CNN as an encoder for URL feature extraction, applies probabilistic latent space sampling via the reparameterization trick and reconstrucs the input through a decoder. The model was trained on 7.000 legitimate URLs and tested on 3.000 URLs (1.500 legitimate and 1500 phishing) from an imbalanced dataset of 10.000 samples. Evaluation results demonstrate the potential of VAE-CNN in enhancing phishing detection through unsupervised learning and contribute to developing cybersecurity risk control strategies.
+Phishing is a dangerous cybersecurity threat that deceives users by disguising malicious content as legitimate. This study suggests an unsupervised anomaly detection using Variational Autoencoder (VAE) and Convolutional Neural Network (CNN) to identify phishing URLs. The model utilizes CNN as an encoder for URL feature extraction, applies probabilistic latent space sampling via the reparameterization trick and reconstruct the input through a decoder. The model was trained on 7.000 legitimate URLs and tested on 3.000 URLs (1.500 legitimate and 1500 phishing) from an imbalanced dataset of 10.000 samples. Evaluation results demonstrate the potential of VAE-CNN in enhancing phishing detection through unsupervised learning and contribute to developing cybersecurity risk control strategies.
 
 
 ### Indonesian
@@ -30,13 +31,13 @@ Phishing merupakan ancaman berbahaya dalam keamanan siber yang mengelabui penggu
 
 ---
 
-## About This Project 🤔
+## About This Project 
 
-### Theoretically 👨🏻‍🏫
+### Theoretically 
 
 This project was submitted as part of the undergraduate thesis in Informatics Engineering at Universitas Maritim Raja Ali Haji (UMRAH). The primary goal in this project is to develop a hybrid deep learning model for URL-based phishing detection by combining Variational Autoencoder (VAE), which is effective in capturing latent representations, with Convolutional Neural Network (CNN), known for the ability in extracting local patterns in data. The model applies an unsupervised anomaly detection approach, where it is trained solely on legitimate URLs to calculate reconstruction loss and then tested using both legitimate and phishing URLs to evaluate the detection performance. The testing process includes comparing the model's predictions against ground truth labels to evaluate its realibility. 
 
-### Practically 👨🏻‍💻
+### Practically 
 
 To simulate the practical application of the model, a user-friendly interface named **PHISHABILITY** was built using the Streamlit framework in Python. The app allows real-time phishing detection and provides two modes of input for flexibilty and usability:
 1. Manual URL Entry - Users can input a single URL for immediate detection (non-URL inputs will be rejected with a warning)
@@ -46,7 +47,7 @@ In addition, users can manually configure the detection **threshold** via the si
 
 ---
 
-# Dataset Details 📁
+# Dataset Details 
 
 - Total URLs: **10,000**
   - **7,000 legitimate** (used for training)
@@ -54,14 +55,14 @@ In addition, users can manually configure the detection **threshold** via the si
   - Sources include publicly available datasets for legitimate URLs (collected from [PhishDataset](https://github.com/ESDAUNG/PhishDataset)) and phishing URLs. The phishing URLs were gathered from the [URLScan.io Phishing URL Feed](https://urlscan.io/pricing/phishingfeed/) and crawled from the X social media platform (formerly Twitter) using [Tweet Harvest](https://github.com/helmisatria/tweet-harvest).
 ---
 
-## VAE-CNN Model Architecture 🧠 
+## VAE-CNN Model Architecture 
 
-### Layer Details 🔧 
+### Layer Details
 
 The model was developed using the PyTorch library in Python. Below is a detailed summary of the encoder and decoder layers used in the VAE-CNN architecture:
 
-| 🧩 Layer (Type)        | 📐 Output Shape        | 🔢 Parameters |
-|------------------------|------------------------|---------------|
+| Layer (Type)           | Output Shape            |  Parameters   |
+_|------------------------|------------------------|---------------|
 | Conv2d-1               | `[1, 32, 50, 43]`       | 544           |
 | BatchNorm2d-2          | `[1, 32, 50, 43]`       | 64            |
 | ReLU-3                 | `[1, 32, 50, 43]`       | 0             |
@@ -82,13 +83,13 @@ The model was developed using the PyTorch library in Python. Below is a detailed
 | ReLU-18                | `[1, 32, 48, 40]`       | 0             |
 | ConvTranspose2d-19     | `[1, 1, 96, 81]`        | 513           |
 
-### Model Summary 💻 
+### Model Summary 
 
 - **Total Parameters**: `529,353`
 - **Trainable Parameters**: `529,353`
 - **Non-trainable Parameters**: `0`
 
-### Memory Estimate 💾
+### Memory Estimate 
 
 | Description              | Size      |
 |--------------------------|-----------|
@@ -99,7 +100,35 @@ The model was developed using the PyTorch library in Python. Below is a detailed
 
 ---
 
-## How to Run ⚙️ 
+## Folder Details 
+
+### /app
+
+This is the main directory for the detection app built using Streamlit.
+
+### /data
+
+This directory contains the dataset, organized into two different subdirectories:
+1. /data/dev - Contains the primary dataset used for the model development, including legitimate and phishing URLs
+2. /data/tes - Contains various samples used for simulation in the app via the CSV file upload
+
+### /models
+
+This directory contains the best VAE-CNN model, along with the vocabulary file generated during the preprocessing.
+
+### /notebook
+
+This directory includes two subdirectories:
+1. /notebook/model - Contains the **Jupyter Notebook** used for developing the VAE-CNN model, with multiple experiment setups
+2. /notebook/utils - Contains the **Jupyter Notebook** files for data preparation and preprocessing
+
+### /utils
+
+This directory consists of VAE-CNN model architecture and helper scripts used in the app preprocessing.
+
+---
+
+## How to Run the App 
 
 1. Clone the repository:
 ```bash
@@ -117,11 +146,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-4. Input the URL manually or upload via CSV to begin detection!
+4. Input the URL manually or via upload CSV file to begin detection!
 
 ---
 
-## Evaluation Metrics 📊 
+## Evaluation Metrics 
 
 | Metric     | Value |
 |------------|-------|
@@ -132,7 +161,7 @@ streamlit run app.py
 
 ---
 
-## Authors 👩‍💻
+## Authors 
 
 | Name | Role | Link |
 |------|------|------|
@@ -142,15 +171,17 @@ streamlit run app.py
 
 ---
 
-## Publication 📚 
+## Publication 
 
 ```
 a = "Coming out very soon!"
 print(a)
 ```
 
-## Contact 📬
+## Contact 
 
 Questions, suggestions, or collaboration are welcome! Feel free to reach out!
-- ✉️ [Email](ygsyp01@gmail.com)
+
+- ✉️ Email: ygsyp01@gmail.com
+
 - 🌐 [Portfolio](https://ygsyportfolio.vercel.app)
