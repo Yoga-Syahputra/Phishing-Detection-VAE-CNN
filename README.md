@@ -81,7 +81,7 @@ The model was developed using the PyTorch library in Python. Below is a detailed
 | ConvTranspose2d-16     | `[1, 32, 48, 40]`       | 32,800        |
 | BatchNorm2d-17         | `[1, 32, 48, 40]`       | 64            |
 | ReLU-18                | `[1, 32, 48, 40]`       | 0             |
-| ConvTranspose2d-19     | `[1, 1, 100, 87]`        | 513           |
+| ConvTranspose2d-19     | `[1, 1, 100, 87]`       | 1281          |
 
 ### Model Summary 
 
