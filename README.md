@@ -4,9 +4,9 @@
 
 - [Abstract](#abstract)
 - [About This Project](#about-this-project)
-  - [Theoretically](#theoretically-)
-  - [Practically](#practically-)
-- [Dataset Details](#dataset-details-)
+  - [Theoretically](#theoretically)
+  - [Practically](#practically)
+- [Dataset Details](#dataset-details)
 - [VAE-CNN Model Architecture](#vae-cnn-model-architecture)
   - [Layer Details](#layer-details)
   - [Model Summary](#model-summary)
