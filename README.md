@@ -43,7 +43,7 @@ To simulate the practical application of the model, a user-friendly interface na
 1. Manual URL Entry - Users can input a single URL for immediate detection (non-URL inputs will be rejected with a warning)
 2. CSV File Upload - Users can upload a CSV file containing multiple URLs, allowing for efficient batch processing and detection.
 
-In addition, users can manually configure the detection **threshold** via the sidebar to customize the sensitivity. By default, the threshold is set to the most optimal value derived from model evaluation to ensure a balanced trade-off between precision and recall (see the optimal threshold here: [Evaluation Metrics](#evaluation-metrics-)). 
+In addition, users can manually configure the detection **threshold** via the sidebar to customize the sensitivity. By default, the threshold is set to the most optimal value derived from model evaluation to ensure a balanced trade-off between precision and recall (see the optimal threshold here: [Evaluation Metrics](#evaluation-metrics)). 
 
 ---
 
