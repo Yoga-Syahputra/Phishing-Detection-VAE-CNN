@@ -1,4 +1,4 @@
-# URL-based Phishing Detection Using Variational Autoencoder and Convolutional Neural Network (VAE-CNN) 
+# URL-Based Phishing Detection via Variational Autoencoder and Convolutional Neural Network
 
 ## Table of Contents 
 
