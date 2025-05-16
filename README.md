@@ -109,22 +109,22 @@ This is the main directory for the detection app built using Streamlit.
 ### /data
 
 This directory contains the dataset, organized into two different subdirectories:
-1. /data/dev - Contains the primary dataset used for the model development, including legitimate and phishing URLs
-2. /data/test - Contains various samples used for simulation in the app via the CSV file upload
+1. /data/dev - Contains the primary dataset used for the model development, including legitimate and phishing URLs.
+2. /data/test - Contains various samples used for simulation in the app via the CSV file upload.
 
 ### /models
 
-This directory contains the best VAE-CNN model, along with the vocabulary file generated during the preprocessing
+This directory contains the best VAE-CNN model, along with the vocabulary file generated during the preprocessing.
 
 ### /notebook
 
 This directory includes two subdirectories:
-1. /notebook/models - Contains the **Jupyter Notebook** used for developing the VAE-CNN model, with multiple experiment setups
-2. /notebook/utils - Contains the **Jupyter Notebook** files for data preparation and preprocessing
+1. /notebook/models - Contains the **Jupyter Notebook** used for developing the VAE-CNN model, with multiple experiment setups.
+2. /notebook/utils - Contains the **Jupyter Notebook** files for data preparation and preprocessing.
 
 ### /utils
 
-This directory consists of VAE-CNN model architecture and helper scripts used in the app preprocessing
+This directory consists of VAE-CNN model architecture and helper scripts used in the app preprocessing.
 
 ---
 
