@@ -22,7 +22,7 @@
 
 ### English 
 
-Phishing is a dangerous cybersecurity threat that deceives users by disguising malicious content as legitimate. This study suggests an unsupervised anomaly detection using Variational Autoencoder (VAE) and Convolutional Neural Network (CNN) to identify phishing URLs. The model utilizes CNN as an encoder for URL feature extraction, applies probabilistic latent space sampling via the reparameterization trick and reconstruct the input through a decoder. The model was trained on 7.000 legitimate URLs and tested on 3.000 URLs (1.500 legitimate and 1500 phishing) from an imbalanced dataset of 10.000 samples. Evaluation results demonstrate the potential of VAE-CNN in enhancing phishing detection through unsupervised learning and contribute to developing cybersecurity risk control strategies.
+Phishing is a dangerous cybersecurity threat that deceives users by disguising malicious content as legitimate. This study suggests an unsupervised anomaly detection using Variational Autoencoder (VAE) and Convolutional Neural Network (CNN) to identify phishing URLs. The model utilizes CNN as an encoder for URL feature extraction, applies probabilistic latent space sampling via the reparameterization trick and reconstruct the input through a decoder. The model was trained on 7,000 legitimate URLs and tested on 3.000 URLs (1,500 legitimate and 1500 phishing) from an imbalanced dataset of 10,000 samples. Evaluation results demonstrate the potential of VAE-CNN in enhancing phishing detection through unsupervised learning and contribute to developing cybersecurity risk control strategies.
 
 
 ### Indonesian
@@ -124,7 +124,7 @@ This directory includes two subdirectories:
 
 ### /utils
 
-This directory consists of VAE-CNN model architecture and helper scripts used in the app preprocessing.
+This directory contains VAE-CNN model architecture and helper scripts used in the app preprocessing.
 
 ---
 
