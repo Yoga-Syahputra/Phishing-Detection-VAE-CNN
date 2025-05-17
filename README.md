@@ -22,8 +22,7 @@
 
 ### English 
 
-Phishing is a dangerous cybersecurity threat that deceives users by disguising malicious content as legitimate. This study suggests an unsupervised anomaly detection using Variational Autoencoder (VAE) and Convolutional Neural Network (CNN) to identify phishing URLs. The model utilizes CNN as an encoder for URL feature extraction, applies probabilistic latent space sampling via the reparameterization trick and reconstruct the input through a decoder. The model was trained on 7.000 legitimate URLs and tested on 3.000 URLs (1.500 legitimate and 1500 phishing) from an imbalanced dataset of 10.000 samples. Evaluation results demonstrate the potential of VAE-CNN in enhancing phishing detection through unsupervised learning and contribute to developing cybersecurity risk control strategies.
-
+Phishing is a dangerous cybersecurity threat that deceives users by disguising malicious content as legitimate. This study suggests an unsupervised anomaly detection method using a hybrid deep learning model that combines Variational Autoencoder (VAE) and Convolutional Neural Network (CNN) to identify phishing URLs. The model utilizes CNN as an encoder for URL feature extraction, applies probabilistic latent space sampling via the reparameterization trick, and reconstructs the input through a decoder. The model was trained on 7,000 legitimate URLs and tested on 3,000 URLs (1,500 legitimate and 1,500 phishing) from an imbalanced dataset of 10,000 samples. Evaluation results demonstrate balanced performance, achieving a precision, recall, and F1-score of 0.82 using an optimal threshold of 0.0049 derived from reconstruction loss analysis. These findings reveal the potential of VAE-CNN in enhancing phishing detection through unsupervised learning and contribute to developing cybersecurity risk mitigation strategies.
 
 ### Indonesian
 
