@@ -40,7 +40,7 @@ class VAE_CNN(nn.Module):
 
     def decode(self, z):
         x = self.fc_decode(z).view(-1, 128, 12, 10)
-        return F.interpolate(self.decoder(x), size=(100, 87), mode='bilinear', align_corners=False)
+        return F.interpolate(self.decoder(x), size=(100, 87), mode='bilinear', align_corners=False) # Interpolate to match the input size for multiple setups
 
     def forward(self, x):
         mu, logvar = self.encode(x)
