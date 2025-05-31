@@ -81,10 +81,10 @@ with st.sidebar.expander("🎯 Why 0.0049?"):
     The default threshold of 0.0049 was chosen based on comprehensive evaluation to achieve an optimal balance between:
             
     🔍 False Positives: Legitimate URLs wrongly detected as phishing
-    🔐 False Negatives: Phishing URLs incorrectly labeled as safe
+    🔐 False Negatives: Phishing URLs incorrectly labeled as legitimate
 
     - Raising the threshold makes the model more cautious — fewer phishing alerts, but higher risk of missing actual threats (↑ false negatives).
-    - Lowering the threshold makes the model more aggressive — more phishing URLs are caught, but at the cost of flagging more safe URLs (↑ false positives).
+    - Lowering the threshold makes the model more aggressive — more phishing URLs are caught, but at the cost of flagging more legitimate URLs (↑ false positives).
             
 Optimized using **Precision, Recall, and F1-score**.
 """)
