@@ -4,7 +4,7 @@ import re
 import json
 from utils.vae_cnn import VAE_CNN
 
-def preprocess_url(url, char_to_idx, max_len=100, vocab_size=100):
+def preprocess_url(url, char_to_idx, max_len=100, vocab_size=87):
     encoded = np.zeros((max_len, vocab_size), dtype=np.float32)
     for i, ch in enumerate(url[:max_len]):
         if ch in char_to_idx:
