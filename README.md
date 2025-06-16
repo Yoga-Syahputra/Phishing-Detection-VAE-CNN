@@ -52,7 +52,7 @@ In addition, users can manually configure the detection **threshold** via the si
 - Total URLs: **10,000**
   - **7,000 legitimate** (used for training)
   - **1,500 legitimate + 1,500 phishing** (used for evaluation/testing)
-  - Sources include publicly available datasets for legitimate URLs (collected from [PhishDataset](https://github.com/ESDAUNG/PhishDataset)) and phishing URLs. The phishing URLs were gathered from the [URLScan.io Phishing URL Feed](https://urlscan.io/pricing/phishingfeed/) and crawled from the X social media platform (formerly Twitter) using [Tweet Harvest](https://github.com/helmisatria/tweet-harvest).
+  - Sources include publicly available datasets for legitimate URLs (collected from [PhishDataset](https://github.com/ESDAUNG/PhishDataset)) and phishing URLs. The phishing URLs were crawled from the X social media platform (formerly Twitter) using [Tweet Harvest](https://github.com/helmisatria/tweet-harvest) and gathered from the [URLScan.io Phishing URL Feed](https://urlscan.io/pricing/phishingfeed/).
 ---
 
 ## VAE-CNN Model Architecture 
