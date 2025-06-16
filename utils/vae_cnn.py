@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class VAE_CNN(nn.Module):
-    def __init__(self, latent_dim=8):
+    def __init__(self, latent_dim=4):
         super(VAE_CNN, self).__init__()
         self.encoder = nn.Sequential(
             nn.Conv2d(1, 32, kernel_size=4, stride=2, padding=1),
